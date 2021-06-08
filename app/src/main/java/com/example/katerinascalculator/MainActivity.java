@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.google.android.material.button.MaterialButton;
+
 
 public class MainActivity extends AppCompatActivity {
     private Calculator calc;
@@ -66,12 +68,11 @@ public class MainActivity extends AppCompatActivity {
         button_mult.setOnClickListener(operationMultButtonsClickListener);
         button_equal.setOnClickListener(equalButtonsClickListener);
     }
-
-
     public View.OnClickListener numberButtonsClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            EditText tv = (EditText) v;
+            MaterialButton tv;
+            tv = (MaterialButton) v;
             String textFromTV = tv.getText().toString();
             text.append(textFromTV);
         }

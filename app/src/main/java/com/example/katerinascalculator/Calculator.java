@@ -2,7 +2,6 @@ package com.example.katerinascalculator;
 
         import android.os.Parcel;
         import android.os.Parcelable;
-        import android.widget.EditText;
 
 public class Calculator implements Parcelable {
 
