@@ -17,4 +17,9 @@
     <string name="key_subtraction">-</string>
     <string name="key_addition">+</string>
     <string name="key_clear">C</string>
+    <string name="my_cool_style">My cool style</string>
+    <string name="material_light">Material light</string>
+    <string name="material_light_action_bar_dark">Material light action bar dark</string>
+    <string name="material_dark">Material dark</string>
+
 </resources>
